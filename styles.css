@@ -1,0 +1,23 @@
+.container{
+  flex-direction: row;
+  background-color: #F7FFFB;
+  height:10vh;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 20px 0px;
+  font-size: 20px;
+  display:flex;
+  justify-content: center;
+
+  /*line-height: 2px;*/
+}
+.left-container{
+  width:95%;
+}
+.right-container{
+  width: 10%:
+  display:flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: flex-end;
+}
