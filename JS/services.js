@@ -15,7 +15,7 @@ angular.module('quoteList').service("mainSrv",function(){
 
   this.addData = function(newQuote){
   if(newQuote.text && newQuote.author){
-    quotes.push(newQuote);
+    quotes.unshift(newQuote);
     return true;
   }
   return false;

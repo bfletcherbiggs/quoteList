@@ -1,23 +1,56 @@
-.container{
-  flex-direction: row;
+*{
+  border-style:border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+body{
   background-color: #F7FFFB;
+}
+button{
+  border:none;
+  background: none;
+}
+input{
+  border:none;
+  background:none;
+  border-bottom: 2px solid gray;
+  font-size:20px;
+  font-family: serif;
+}
+.filter.container{
+  border-radius: 0px;
+  background-color: white;
+  /*box-shadow:0px 0px 0px;*/
+  /*z-index: 100;*/
+}
+.parent {
+  border-top: 1px solid gray;
+  background-color: #F7FFFB;
+  padding-bottom: 20px;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+.container{
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius: 20px;
+
+  flex-direction: row;
   height:10vh;
-  border: 2px solid gray;
-  border-radius: 5px;
   padding: 20px 0px;
   font-size: 20px;
   display:flex;
-  justify-content: center;
-
-  /*line-height: 2px;*/
+  align-items: center;
+  /*margin-top: -15px;*/
+  box-shadow:3px 7px 10px gray;
 }
 .left-container{
-  width:95%;
+  width:90%;
+  align-self:center;
 }
 .right-container{
+  align-self: flex-end;
   width: 10%:
-  display:flex;
-  justify-content: flex-end;
-  align-content: flex-end;
-  align-items: flex-end;
+}
+.author{
+  color: gray;
 }
